@@ -1,7 +1,7 @@
 {
-  "name": "angular2-seed",
+  "name": "blackfoot-power-sports",
   "version": "1.0.0",
-  "description": "A simple starter Angular2 project",
+  "description": "Website for blackfoot power sports",
   "scripts": {
     "build": "webpack --progress",
     "watch": "npm run build -- --watch",

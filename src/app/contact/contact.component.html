@@ -1,4 +1,4 @@
-<h2>Contact Reactive Form</h2>
+<h2>Contact Us</h2>
 
 <form (ngSubmit)="submitForm()" [formGroup]="contactForm" novalidate>
   <div class="form-content">
@@ -21,16 +21,21 @@
 </form>
 
 <div class="form-value">
-  Form value:
+  Phone: xxx-xxx-xxxx
   <pre>
-    {{contactForm.value | json}}
+    Fax: xxx-xxx-xxxx
   </pre>
   <p>
-    Status: {{contactForm.status}}
+    Email: bfmotorsports@yahoo.com
   </p>
   <p>
-    Valid: {{contactForm.valid}}
+    Address: xxxx SomeStreet Dr.
   </p>
-  <p>Submit then open console to see full form.</p>
+  <p>
+    Blackfoot, Idaho 83409
+  </p>
+  <p>
+    Hours: Monday-Sunday 10am-5pm
+  </p>
 </div>
 

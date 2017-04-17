@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { GithubService } from '../shared/github.service';
 
 @Component({
-  selector: 'repo-browser',
+  selector: 'inventory',
   templateUrl: './repo-browser.component.html',
   styleUrls: ['./repo-browser.component.css']
 })
